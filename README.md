@@ -7,10 +7,10 @@ A simple and fast web application built using **Streamlit** that predicts house 
 ## 🚀 Features
 
 - Predicts house prices using a trained machine learning model.
-- Clean and fast HTML form-based UI.
+- Clean and fast Streamlit library form-based UI.
 - Estimates price in Indian Rupees (₹).
 - Lightweight — built without Streamlit.
-- Can be deployed on Heroku, Render, or any cloud service.
+- Can be deployed on Streamlit service.
 
 ---
 
