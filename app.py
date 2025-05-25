@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import babel
 import pickle
 from babel.numbers import format_currency
 
