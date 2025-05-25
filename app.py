@@ -51,4 +51,4 @@ if st.button("Predict Price"):
     # Ensure it's not negative
     adjusted_price = max(adjusted_price, 0)
 
-    st.success(f"🏷️ Estimated House Price: {adjusted_price}")
+    st.success(f"🏷️ Estimated House Price: {int(adjusted_price)}")
