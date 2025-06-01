@@ -8,7 +8,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
 # Step 2: Load Dataset
-df = pd.read_csv("data/Housing.csv")  # Make sure your CSV is in this path
+df = pd.read_csv("Housing.csv")  # Make sure your CSV is in this path
 df.head()# Step 3: Preprocess Data
 
 # List of categorical columns to encode
@@ -54,7 +54,7 @@ import os
 os.makedirs("models", exist_ok=True)
 
 # Save model
-with open("models/house_price_model.pkl", "wb") as f:
+with open("house_price_model.pkl", "wb") as f:
     pickle.dump((pipeline, X.columns), f)
 
 print("💾 Model saved as models/house_price_model.pkl")
