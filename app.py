@@ -4,7 +4,7 @@ import pickle
 
 
 # Load the model
-with open("models/house_price_model.pkl", "rb") as f:
+with open("/house_price_model.pkl", "rb") as f:
     model, input_columns = pickle.load(f)
 
 st.set_page_config(page_title="House Price Predictor", layout="centered")
