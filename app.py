@@ -45,7 +45,7 @@ if st.button("Predict Price"):
         'furnishingstatus': furnishingstatus
     }])
 
-    prediction = model.predict(input_df)[1]
+    prediction = model.predict(input_df)[0]
         # Lower price using division or subtraction
     adjusted_price = prediction / 4 
     # Ensure it's not negative
