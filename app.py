@@ -16,7 +16,7 @@ st.markdown("Enter property details below to estimate the price.")
 area = st.number_input("Total Area (in sqft)", min_value=100, max_value=10000, value=1200)
 bedrooms = st.selectbox("Bedrooms", [1, 2, 3, 4, 5])
 bathrooms = st.selectbox("Bathrooms", [1, 2, 3, 4])
-stores = st.selectbox("Stores", [1, 2, 3, 4])
+stories = st.selectbox("Stories", [1, 2, 3, 4])
 
 mainroad = st.selectbox("Main Road Access", ['yes', 'no'])
 guestroom = st.selectbox("Guest Room", ['yes', 'no'])
